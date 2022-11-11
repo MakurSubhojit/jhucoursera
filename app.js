@@ -11,7 +11,7 @@
         $scope.message = '';
         $scope.checked = false;
 
-        $scope.checkLunch = function() {
+        $scope.foodquant = function() {
             if ($scope.dishes.trim().length === 0) {
                 $scope.empty = true;
             } else {
